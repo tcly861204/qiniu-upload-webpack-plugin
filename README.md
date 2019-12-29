@@ -1,6 +1,6 @@
-# qiniu-upload-webpack-plugin
+# upload-qiniu-cloud
 
-> 将 webpack 打包出来的 assets 上传到七牛云。
+将 webpack 打包出来的 assets 上传到七牛云。
 
 # 特点
 
@@ -11,13 +11,17 @@
 基于官方七牛云[Node.js SDK](https://developer.qiniu.com/kodo/sdk/1289/nodejs)。
 
 
+
 # 安装
-> npm install qiniu-upload-webpack-plugin
+```
+npm i upload-qiniu-cloud -D
+```
+
 
 # 使用方法
 
 ```
-const QiniuUploadWebpackPlugin = require('qiniu-upload-webpack-plugin')
+const QiniuUploadWebpackPlugin = require('upload-qiniu-cloud')
 plugins: [
   new QiniuUploadWebpackPlugin({
     publicPath: 'http://xxx.com', // 七牛云域名，自动替换 publicPath
@@ -32,4 +36,4 @@ plugins: [
 
 # 效果截图
 
-![示例](./quniuupload.example.png)
+![示例](./example/quniuupload.example.png)

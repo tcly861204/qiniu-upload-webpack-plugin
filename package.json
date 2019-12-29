@@ -1,6 +1,6 @@
 {
-  "name": "qiniu-upload-webpack-plugin",
-  "version": "1.0.0",
+  "name": "upload-qiniu-cloud",
+  "version": "1.0.2",
   "description": "webpack, plugin, build",
   "main": "libs/main.js",
   "scripts": {
