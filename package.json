@@ -1,0 +1,30 @@
+{
+  "name": "qiniu-upload-webpack-plugin",
+  "version": "1.0.0",
+  "description": "webpack, plugin, build",
+  "main": "libs/main.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcly861204/qiniu-upload-webpack-plugin.git"
+  },
+  "keywords": [
+    "node",
+    "webpack",
+    "upload",
+    "qiniu"
+  ],
+  "author": "tcly861204 <tcly861204@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tcly861204/qiniu-upload-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/tcly861204/qiniu-upload-webpack-plugin#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "ora": "^4.0.3",
+    "qiniu": "^7.2.2"
+  }
+}
