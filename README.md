@@ -2,7 +2,7 @@
 ![GitHub](https://img.shields.io/github/license/tcly861204/qiniu-upload-webpack-plugin?style=plastic)
 
 
-将 webpack 打包出来的 assets 上传到七牛云。
+将 webpack 打包出来的静态文件上传到七牛云。
 
 # 特点
 
