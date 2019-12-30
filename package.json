@@ -2,7 +2,7 @@
   "name": "upload-qiniu-cloud",
   "version": "1.0.3",
   "description": "webpack, plugin, build",
-  "main": "libs/main.js",
+  "main": "lib/main.min.js",
   "scripts": {
     "test": "npm run test"
   },
